@@ -16,7 +16,7 @@ TagManager:
   - 
   - 
   - Clickable
-  - 
+  - Background
   - 
   - 
   - 
@@ -42,6 +42,9 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 1076298121
     locked: 0
   - name: Clickable
     uniqueID: 4179303391
