@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Food
   - Clickable
+  - Carrot
+  - Maca
   layers:
   - Default
   - TransparentFX

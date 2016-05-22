@@ -8,8 +8,14 @@ public class CaptureFood : MonoBehaviour {
 
 	void OnMouseDown(){
 		Destroy(gameObject);
-		RestaurantManager.moneyText.text = "Gastos: "+ (money-200) + " R$";
-
+        switch (gameObject.tag){ 
+            case "Carrot":
+                RestaurantManager.moneyText.text = "Gastos: " + (money - 200) + " R$";
+                break;
+            default:
+                RestaurantManager.moneyText.text = "Gastos: " + (money - 0) + " R$";
+                break;
+        }
 	}
 
 }
