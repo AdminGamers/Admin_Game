@@ -8,6 +8,24 @@ TagManager:
   - Clickable
   - Carrot
   - Maca
+  - Rice
+  - Potato
+  - Banana
+  - Onion
+  - Fruits
+  - Vegetables
+  - Flour
+  - Bean
+  - Chocolate
+  - Milk
+  - CondensedMilk
+  - Syrup
+  - Egg
+  - Barbecue
+  - Bread
+  - Pig
+  - Chicken
+  - Bacon
   layers:
   - Default
   - TransparentFX
