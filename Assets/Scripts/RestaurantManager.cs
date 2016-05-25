@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System;
+using System.IO;
 using UnityEngine.UI;
 
 public class RestaurantManager : MonoBehaviour {
@@ -17,7 +19,7 @@ void Start(){
 	void Update () {
 		moneyText.text = "Valor total: " + CaptureFood.money + " R$";
 		listText.text = "Você comprou:\n " + CaptureFood.qCarrot + " Cenouras\n "
-		 																	 + CaptureFood.qOnion + " Bacons\n "
+		 																	 + CaptureFood.qOnion + " Cebolas\n "
 																			 + CaptureFood.qPotato + " Batatas\n "
 																			 + CaptureFood.qBanana + " Bananas\n "
 																			 + CaptureFood.qFruits + " Cestas de frutas\n "
