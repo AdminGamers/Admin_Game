@@ -12,9 +12,32 @@ public class ButtonsManager : MonoBehaviour {
 	void Update () {
 
 	}
-
+    public double Price(){
+       double price = CaptureFood.qOnion * 2.0 +
+        CaptureFood.qPotato * 2.0 +
+        CaptureFood.qBanana * 2.0 +
+        CaptureFood.qFruits * 4.0 +
+        CaptureFood.qVegetables * 5.50 +
+        CaptureFood.qBeans * 4.50 +
+        CaptureFood.qChocolate * 5.0 +
+        CaptureFood.qBarbecue * 3.50 +
+        CaptureFood.qMilk * 4.0 + 
+        CaptureFood.qCondensedMilk * 4.5 +
+        CaptureFood.qSyrup * 9.0 +
+        CaptureFood.qEggs * 3.0 +
+        CaptureFood.qBacon * 3.0 +
+        CaptureFood.qBread * 3.0 +
+        CaptureFood.qRice * 5.0 +
+        CaptureFood.qFlour * 4.0 +
+        CaptureFood.qPig * 7.0 +
+        CaptureFood.qChicken * 6.5;
+        return price;
+    }
 	public void Bt_Buy(){
-		Debug.Log("Mudou de Scene");
+        if (CaptureFood.money > Price()){
+        CaptureFood.money = CaptureFood.money - Price();
+            }
+        Debug.Log("Mudou de Scene");
 		//Application.LoadLevel("");
 	}
 
