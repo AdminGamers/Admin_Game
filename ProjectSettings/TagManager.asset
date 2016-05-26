@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Food
+  - Clickable
+  - Carrot
+  - Maca
+  - Rice
+  - Potato
+  - Banana
+  - Onion
+  - Fruits
+  - Vegetables
+  - Flour
+  - Beans
+  - Chocolate
+  - Milk
+  - CondensedMilk
+  - Syrup
+  - Egg
+  - Barbecue
+  - Bread
+  - Pig
+  - Chicken
+  - Bacon
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Clickable
+  - Background
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 1076298121
+    locked: 0
+  - name: Clickable
+    uniqueID: 4179303391
+    locked: 0
