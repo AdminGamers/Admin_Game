@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class CaptureFood : MonoBehaviour {
 
-	public static float money=5000;
+	public static double money=5000;
 	public static int qCarrot = 0;
 	public static int qOnion = 0;
 	public static int qPotato = 0;
