@@ -39,6 +39,25 @@ public class ButtonsManager : MonoBehaviour {
         if (CaptureFood.money > Price()){
         	CaptureFood.money = CaptureFood.money - Price();
 					ValuesManager.fCarrot.text = "";
+					ValuesManager.fCarrot.text = "";
+				  ValuesManager.fOnion.text = "";
+				  ValuesManager.fPotato.text = "";
+				  ValuesManager.fBanana.text = "";
+				  ValuesManager.fFruits.text = "";
+				  ValuesManager.fVegetables.text = "";
+				  ValuesManager.fBeans.text = "";
+				  ValuesManager.fChocolate.text = "";
+				  ValuesManager.fBarbecue.text = "";
+				  ValuesManager.fMilk.text = "";
+				  ValuesManager.fCondensedMilk.text = "";
+				  ValuesManager.fSyrup.text = "";
+				  ValuesManager.fEggs.text = "";
+				  ValuesManager.fBacon.text = "";
+				  ValuesManager.fBread.text = "";
+				  ValuesManager.fRice.text = "";
+					ValuesManager.fFlour.text = "";
+				  ValuesManager.fPig.text = "";
+				  ValuesManager.fChicken.text = "";
         }
         Debug.Log("Mudou de Scene");
 		//Application.LoadLevel("");
